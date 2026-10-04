@@ -5,7 +5,7 @@ date: '2026-09-28'
 author:
   name: Petr Bureš
   company: TamTam Research s.r.o.
-perex: 'This document describes the data format used to provide information about current and planned closures and traffic restrictions on the road network of the Czech Republic: roadworks, closures, diversions, speed restrictions and changes of traffic arrangement. The format is a subset of the format cz-ndic_d2-common limited to road operator actions; message structure, location referencing and filling rules are the same in both formats. The format is based on the SituationPublication of the DATEX II 3.7 model and uses no national extension.'
+perex: 'This document describes the data format used to provide information about current and planned closures and traffic restrictions on the road network of the Czech Republic: roadworks, closures, diversions, speed restrictions and changes of traffic arrangement. The format is a subset of the format x-format:cz-ndic_d2-common-v2.0 limited to road operator actions; message structure, location referencing and filling rules are the same in both formats. The format is based on the sit:SituationPublication of the DATEX II 3.7 model and uses no national extension.'
 keywords: DATEX II, NDIC, SituationPublication
 tables:
   scope: all

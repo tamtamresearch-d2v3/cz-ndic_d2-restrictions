@@ -3,7 +3,7 @@
 The format provides information on current and planned closures and traffic restrictions on the road
 network of the Czech Republic: roadworks, closures, diversions, speed limits and changes of traffic layout.
 
-IMPORTANT: The format is a subset of the `cz-ndic_d2-common` format, where closures and roadworks are
+IMPORTANT: The format is a subset of the `x-format:cz-ndic_d2-common-v2.0` format, where closures and roadworks are
 published together with other events. The restrictions profile selection is derived from the common
 selection by limiting it to road operator actions (`sit:OperatorAction`); the structures and rules are the same
 in both formats.
@@ -224,13 +224,16 @@ The affected carriageway, lanes or kind of place (e.g. a bridge) are specified b
 
 IMPORTANT: The location referencing methods are described identically in all NDIC formats that use them.
 Graphical illustrations of the methods (ALERT-C locations and direction, bidirectional location in OpenLR, location
-composed of Global Network sections) are given in the documentation of the format `cz-ndic_d2-pls`,
+composed of Global Network sections) are given in the documentation of the format `x-format:cz-ndic_d2-pls-v2.0`,
 chapter Location referencing.
 
 [[alertc]]
 === ALERT-C location referencing
 
 include::{kitdir}/shared/en/poloha/alertc.adoc[]
+
+.ALERT-C location referencing – direction, secondary and primary location
+image::alertc-poloha-en.svg[ALERT-C – direction and locations,width=680,align="center"]
 
 In messages about events the following also applies:
 
@@ -387,7 +390,7 @@ sections:
    they can be encoded for that section (ALERT-C locations cover only part of the road network),
 ** the order of the sections has no meaning.
 * *Recurring area* (regular winter closures, permanent diversion routes) – reference to a predefined group
-  of the `cz-ndic_d2-pls` format:
+  of the `x-format:cz-ndic_d2-pls-v2.0` format:
 ** `locationReference` of type `loc:LocationGroupByReference`,
 ** with `predefinedLocationGroupReference` (`@targetClass` = `loc:PredefinedLocationGroup`).
 

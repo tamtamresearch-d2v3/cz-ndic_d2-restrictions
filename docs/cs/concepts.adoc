@@ -3,7 +3,7 @@
 Formát poskytuje informace o aktuálních a plánovaných uzavírkách a omezeních provozu na silniční síti
 ČR: práce na silnici, uzavírky, objížďky, omezení rychlosti a změny uspořádání provozu.
 
-IMPORTANT: Formát je podmnožinou formátu `cz-ndic_d2-common`, kde jsou uzavírky a práce na silnici
+IMPORTANT: Formát je podmnožinou formátu `x-format:cz-ndic_d2-common-v2.0`, kde jsou uzavírky a práce na silnici
 publikovány společně s ostatními událostmi. Výběr profilu restrictions vzniká z výběru common
 omezením na akce správce komunikace (`sit:OperatorAction`); struktury a pravidla jsou v obou formátech
 shodné.
@@ -218,12 +218,15 @@ Dotčený jízdní pás, jízdní pruhy nebo druh místa (např. most) upřesňu
 
 IMPORTANT: Metody popisu polohy jsou popsány shodně ve všech formátech NDIC, které je používají. Grafické
 ukázky metod (lokace ALERT-C a směr, obousměrná poloha v OpenLR, složení polohy z úseků Global Network)
-obsahuje dokumentace formátu `cz-ndic_d2-pls`, kapitola Popisování poloh.
+obsahuje dokumentace formátu `x-format:cz-ndic_d2-pls-v2.0`, kapitola Popisování poloh.
 
 [[alertc]]
 === Popis polohy pomocí ALERT-C
 
 include::{kitdir}/shared/cs/poloha/alertc.adoc[]
+
+.Popis polohy pomocí ALERT-C – směr, sekundární a primární lokace
+image::alertc-poloha.svg[ALERT-C – směr a lokace,width=680,align="center"]
 
 Ve zprávách o událostech platí navíc:
 
@@ -374,7 +377,7 @@ jedním záznamem, jehož poloha je skupinou úseků:
    úsek zakódovat (lokace ALERT-C pokrývají jen část silniční sítě),
 ** pořadí úseků nemá význam.
 * *Opakující se oblast* (pravidelné zimní uzavírky, stálé objízdné trasy) – odkaz na předdefinovanou
-  skupinu formátu `cz-ndic_d2-pls`:
+  skupinu formátu `x-format:cz-ndic_d2-pls-v2.0`:
 ** `locationReference` typu `loc:LocationGroupByReference`,
 ** s `predefinedLocationGroupReference` (`@targetClass` = `loc:PredefinedLocationGroup`).
 

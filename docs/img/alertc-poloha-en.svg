@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440">
+<rect width="760" height="440" fill="#FFFFFF"/>
+<text x="20" y="26" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="12" fill="#09417A" text-anchor="start" font-weight="bold" xml:space="preserve">alertCLinear (AlertCMethod2Linear) – table: country 2, number 25, version = table version</text>
+<text x="20" y="58" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="start" font-weight="normal" xml:space="preserve">location table order = positive direction</text>
+<line x1="300" y1="54" x2="694" y2="54" stroke="#6B7069" stroke-width="1.5" /><path d="M700,54 L693,50 L693,58 Z" fill="#6B7069"/>
+<text x="300" y="44" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L1</text>
+<text x="390" y="44" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L2</text>
+<text x="480" y="44" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L3</text>
+<text x="570" y="44" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L4</text>
+<text x="660" y="44" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L5</text>
+<text x="20" y="101" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" xml:space="preserve">One direction, positive</text>
+<text x="20" y="118" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCDirectionCoded = positive</text>
+<text x="20" y="134" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCAffectedDirection = aligned</text>
+<line x1="280" y1="115" x2="690" y2="115" stroke="#C8CDC6" stroke-width="12" stroke-linecap="round"/>
+<line x1="390" y1="115" x2="560" y2="115" stroke="#0096DC" stroke-width="6" /><path d="M570,115 L558.0,108.0 L558.0,122.0 Z" fill="#0096DC"/>
+<circle cx="300" cy="115" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="300" y="139" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L1</text>
+<circle cx="390" cy="115" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="390" y="139" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L2</text>
+<circle cx="480" cy="115" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="480" y="139" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L3</text>
+<circle cx="570" cy="115" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="570" y="139" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L4</text>
+<circle cx="660" cy="115" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="660" y="139" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L5</text>
+<text x="390" y="102" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">S</text>
+<text x="570" y="102" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">P</text>
+<text x="20" y="186" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" xml:space="preserve">One direction, negative</text>
+<text x="20" y="203" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCDirectionCoded = negative</text>
+<text x="20" y="219" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCAffectedDirection = aligned</text>
+<line x1="280" y1="200" x2="690" y2="200" stroke="#C8CDC6" stroke-width="12" stroke-linecap="round"/>
+<line x1="570" y1="200" x2="400" y2="200" stroke="#09417A" stroke-width="6" /><path d="M390,200 L402.0,193.0 L402.0,207.0 Z" fill="#09417A"/>
+<circle cx="300" cy="200" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="300" y="224" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L1</text>
+<circle cx="390" cy="200" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="390" y="224" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L2</text>
+<circle cx="480" cy="200" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="480" y="224" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L3</text>
+<circle cx="570" cy="200" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="570" y="224" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L4</text>
+<circle cx="660" cy="200" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="660" y="224" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L5</text>
+<text x="570" y="187" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">S</text>
+<text x="390" y="187" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">P</text>
+<text x="20" y="271" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" xml:space="preserve">Bidirectional</text>
+<text x="20" y="288" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">S, P and alertCDirectionCoded: first direction</text>
+<text x="20" y="304" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCAffectedDirection = both</text>
+<line x1="280" y1="285" x2="690" y2="285" stroke="#C8CDC6" stroke-width="12" stroke-linecap="round"/>
+<line x1="390" y1="289" x2="560" y2="289" stroke="#0096DC" stroke-width="4" /><path d="M570,289 L558.0,282.0 L558.0,296.0 Z" fill="#0096DC"/>
+<line x1="570" y1="281" x2="400" y2="281" stroke="#09417A" stroke-width="4" /><path d="M390,281 L402.0,274.0 L402.0,288.0 Z" fill="#09417A"/>
+<circle cx="300" cy="285" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="300" y="309" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L1</text>
+<circle cx="390" cy="285" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="390" y="309" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L2</text>
+<circle cx="480" cy="285" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="480" y="309" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L3</text>
+<circle cx="570" cy="285" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="570" y="309" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L4</text>
+<circle cx="660" cy="285" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="660" y="309" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L5</text>
+<text x="390" y="272" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">S</text>
+<text x="570" y="272" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">P</text>
+<text x="20" y="356" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" xml:space="preserve">Physical point (short section)</text>
+<text x="20" y="373" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">primary = secondary location</text>
+<text x="20" y="389" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#333333" text-anchor="start" font-weight="normal" xml:space="preserve">alertCAffectedDirection = aligned / both</text>
+<line x1="280" y1="370" x2="690" y2="370" stroke="#C8CDC6" stroke-width="12" stroke-linecap="round"/>
+<line x1="462" y1="370" x2="498" y2="370" stroke="#0096DC" stroke-width="6" />
+<circle cx="300" cy="370" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="300" y="394" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L1</text>
+<circle cx="390" cy="370" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="390" y="394" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L2</text>
+<circle cx="480" cy="370" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="480" y="394" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L3</text>
+<circle cx="570" cy="370" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="570" y="394" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L4</text>
+<circle cx="660" cy="370" r="4" fill="#FFFFFF" stroke="#6B7069" stroke-width="1.5"/>
+<text x="660" y="394" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="middle" font-weight="normal" xml:space="preserve">L5</text>
+<text x="480" y="357" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="11" fill="#09417A" text-anchor="middle" font-weight="bold" xml:space="preserve">P = S</text>
+<text x="20" y="412" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="start" font-weight="normal" xml:space="preserve">S = secondary location (entry into the section), P = primary location (exit); relative to the travel direction.</text>
+<text x="20" y="428" font-family="SourceSansPro, Source Sans Pro, Noto Serif, Noto Sans, DejaVu Sans, sans-serif" font-size="10" fill="#6B7069" text-anchor="start" font-weight="normal" xml:space="preserve">The RDS-TMC direction bit has the opposite meaning to alertCDirectionCoded.</text>
+</svg>
