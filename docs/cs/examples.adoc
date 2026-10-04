@@ -92,8 +92,8 @@ include::{samplesdir}/closure-junction.xml[tags=**]
 ----
 
 Situace::
-Jeden záznam typu `sit:RoadOrCarriagewayOrLaneManagement` ve verzi 5: uzavření silnice (`roadClosed`) v obou
-směrech se zbytkovou kapacitou 0, závazně (`complianceOption` = `mandatory`).
+Jeden záznam typu `sit:RoadOrCarriagewayOrLaneManagement` ve verzi 5: uzavření komunikace (`roadClosed`) v obou
+směrech se zbývající kapacitou 0, závazně (`complianceOption` = `mandatory`).
 
 Platnost::
 Od 7.{nbsp}10.{nbsp}2026 10:01 do 31.{nbsp}10.{nbsp}2026 23:59.
@@ -114,8 +114,8 @@ include::{samplesdir}/closure-route.xml[tags=**]
 ----
 
 Situace::
-Jeden záznam typu `sit:RoadOrCarriagewayOrLaneManagement` ve verzi 4: uzavření silnice (`roadClosed`) v obou
-směrech se zbytkovou kapacitou 0, závazně.
+Jeden záznam typu `sit:RoadOrCarriagewayOrLaneManagement` ve verzi 4: uzavření komunikace (`roadClosed`) v obou
+směrech se zbývající kapacitou 0, závazně.
 
 Platnost::
 Od 21.{nbsp}9.{nbsp}2026 7:00 do 1.{nbsp}10.{nbsp}2026 23:59.

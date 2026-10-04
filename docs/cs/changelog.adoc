@@ -31,7 +31,7 @@
    `loc:ItineraryByIndexedLocations` a nesouvislá nebo rozvětvená poloha `loc:LocationGroupByList`.
 ** Profil je zúžen na prvky a hodnoty výčtů, které NDIC publikuje nebo které plní hlášení ALERT-C; vypuštěné
    hodnoty ALERT-C se vyjadřují obecnější hodnotou.
-** Obecná místa platnosti řízení provozu (`placesAtWhichApplicable`, např. „v tunelech“) se neuvádějí –
+** Obecná místa platnosti dopravních opatření (`placesAtWhichApplicable`, např. „v tunelech“) se neuvádějí –
    událost se vždy týká konkrétní polohy.
 ** Procenta délky úseku GN (`percentageDistanceAlong`) jsou v rozsahu 0–100 (dříve 0–1).
 ** Kód země ALERT-C (`alertCLocationCountryCode`) je `2` (dříve `CZ`).
@@ -40,7 +40,7 @@
 ** Naléhavost (`urgency`) se neuvádí.
 ** Změněné hodnoty: `earlierAccident` → `earlierIncident`; `seriousAccident` → `seriousInjuryOrFatalAccident`;
    `multivehicleAccident` → `multipleVehicleAccident`; kluzká vozovka z povětrnostní příčiny `slippery`
-   (dříve `slipperyRoad`); porucha služeb odpočívky je záznam `sit:ServiceDisruption`; bezohledný řidič záznam
+   (dříve `slipperyRoad`); narušení služeb odpočívky je záznam `sit:ServiceDisruption`; bezohledný řidič záznam
    `sit:VehicleObstruction`.
 ** Původní počet pruhů (`originalNumberOfLanes`) se uvádí u jízdního pásu (`carriageway`), ne v `impact`.
 * Původ dat:

@@ -49,4 +49,4 @@ Situation:
 SingleRoadLinearLocation:
   alertCLinear:
     card: 0..1
-    ndic: "Nejvýše jedna cesta ALERT-C po jedné komunikaci."
+    ndic: "Nejvýše jedna liniová poloha ALERT-C na jedné komunikaci."

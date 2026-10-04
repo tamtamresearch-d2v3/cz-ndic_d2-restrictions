@@ -63,7 +63,7 @@ include::{samplesdir}/restriction.xml[tag=situation-head,indent=0]
 ----
 
 Vlastní informace nesou záznamy `situationRecord`. V jedné situaci může být záznamů více, každý jiného
-typu (`@xsi:type`) – typicky práce na silnici a jejich důsledek (např. uzavření silnice nebo kyvadlový provoz). Identifikátor
+typu (`@xsi:type`) – typicky práce na silnici a jejich důsledek (např. uzavření komunikace nebo kyvadlový provoz). Identifikátor
 záznamu je odvozen od identifikátoru situace a typu záznamu; situace proto obsahuje nejvýše jeden záznam každého typu.
 
 [[verzovani]]
@@ -113,11 +113,11 @@ Formát používá výhradně záznamy typu akce správce komunikace (potomci t�
 [cols="2,3",options="header"]
 |===
 |Oblast |Typy záznamů
-|Práce na silnici |`sit:ConstructionWorks` (stavební práce), `sit:MaintenanceWorks` (údržba)
+|Práce na silnici |`sit:ConstructionWorks` (stavební práce), `sit:MaintenanceWorks` (údržbové práce)
 |Uzavírky a uspořádání provozu |`sit:RoadOrCarriagewayOrLaneManagement`
 |Objížďky |`sit:ReroutingManagement`
 |Omezení rychlosti |`sit:SpeedManagement`
-|Ostatní řízení provozu |`sit:GeneralNetworkManagement`, `sit:GeneralInstructionOrMessageToRoadUsers`
+|Ostatní dopravní opatření |`sit:GeneralNetworkManagement`, `sit:GeneralInstructionOrMessageToRoadUsers`
 |===
 
 Jedna situace typicky obsahuje příčinu (např. práce na silnici) a její důsledek (např. uzavírku či
@@ -132,7 +132,7 @@ include::{samplesdir}/restriction.xml[tag=works,indent=0]
 U akcí správce komunikace určuje `complianceOption`, zda je opatření závazné (`mandatory`) nebo
 doporučené (`advisory`).
 
-Dopad na provoz se popisuje v elementu `impact` – odhadem zbytkové kapacity komunikace (`capacityRemaining`,
+Dopad na provoz se popisuje v elementu `impact` – odhadem zbývající kapacity komunikace (`capacityRemaining`,
 při úplném uzavření 0), počtem průjezdných (`numberOfOperationalLanes`) nebo omezených
 (`numberOfLanesRestricted`) jízdních pruhů, případně zdržením (`delays`).
 
@@ -342,7 +342,7 @@ III. třídy), popisuje se jako trasa – `locationReference` typu `loc:Itinerar
 * Části jsou v pořadí jízdy (u obousměrné polohy v pořadí prvního směru), konec části je počátkem následující
   a části se nepřekrývají. Směrovost je ve všech částech shodná.
 * Novou část nezakládá úsek jiné komunikace uvnitř křižovatky, krátká spojka ani souběh dvou silnic. Má-li
-  poloha popis ALERT-C, odpovídá každá část jedné cestě lokační tabulky ALERT-C.
+  poloha popis ALERT-C, odpovídá každá část jedné komunikaci lokační tabulky ALERT-C.
 * Trasa má nejméně dvě části. Poloha na jedné komunikaci je vždy přímo
   `loc:SingleRoadLinearLocation`.
 
